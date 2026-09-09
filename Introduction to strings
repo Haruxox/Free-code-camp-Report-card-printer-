@@ -1,0 +1,51 @@
+A string is a sequence of characters surrounded by quotation marks (') or (") #Freecodecamp
+
+Types of strings
+1.) Multi line strings use: 
+(" " ") triple quotes so you may write across multiple lines.
+
+
+2.) Handling Quotes inside strings
+
+2.1) Using opposite quotes  -Method 1 
+msg = "It's a sunny day" 
+quote = 'She said, "Hello World!" ' 
+
+2.2) Using Back Slashes (\) (This escapes or negates a quote) -Methos 2 
+msg= 'It\'s a sunny day' (escapes single quote)
+quote= "she said, \"Hello!\" "
+
+3.) Checking String content 
+
+3.1) The in operator. Returns True or False (Boolean value) 
+my_str= 'Hello world'
+print('Hello' in my_str)  #True
+print('hey' in my_str)    #False
+
+4.) String length len()
+This returns the number of characters in a string (including the spaces)
+my_str= "Hello world" 
+print(len(my_str))    # 11
+
+5.) String indexing 
+It is 0 based ( first chracter = 0 )
+use [] brackets
+my_str= "hello World"
+print(my_str[0])  #H
+print(my_str[6])  #W
+
+negative indexing is also possible
+-1 = last charcter 
+-2 = second last charcter 
+
+Strings are immutable (cannot be changed after creation) 
+However a new variable can be assigned to it 
+
+Correct version:
+greeting = 'hi'
+greeting= 'hello'
+print(greeting)  #hello
+
+incorrect:
+greeting= 'hi'
+greeting[0]= 'H' #Type Error! cant modify string directly 
