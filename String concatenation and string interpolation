@@ -1,0 +1,38 @@
+ Concatenating strings 
+combining strings together with (+) operator 
+my_str1 = 'Hello'
+my_str2 = "world"
+str_plus_str= my_str1 + ' ' + my_str2
+print(str_plusstr)  #Hello World 
+
+ Repeating strings 
+sound = 'ha'
+repeated_sound= sound*3
+print(repeated_sound) #hahaha
+
+NOTE: Concatenation only works with strings, otherwise you'll get TypeError.
+
+We can convert numbers to strings using str()
+name = 'john Doe'
+age = 26 
+name_and_age = name + str(age)
+print(name_and_age) #John Doe26 
+
+Augmented assignment operator for concatenation and assignment in one step (+=)
+name = 'John Doe'
+age = 26
+name_and_age = name
+name_and_age += str(age) 
+print (name_and_age)  # John Doe26
+
+String interpolation
+inseting variables and expresions into a string
+using f stings (formatted string literals) and curly brackets{}
+name = 'john Doe'
+age = 26 
+name_and_age = f'My name is {name} and i am {age} years old'
+print(name_and_age) # My name i sJon Doe and i am 26 years old 
+
+NOTE: you dont need to use str() on non-string values 
+
+
