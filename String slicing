@@ -1,0 +1,14 @@
+STRING SLICING 
+
+String slicingis extracting a portion of a string or workin with only a specific part of it.
+string [start:stop]
+start is inclusive, whilst stop is exclusive
+my_str = 'Hello World' 
+print(my_str[1;4])  #ell
+NOTE slicing does NOT modify original string 
+
+STEP
+The step parameter allows you to specify the increment between eac index in the slice.
+string[start:stop:step]
+my_str = 'Hello World' 
+print(my_str[0:11:2]) #Hlowrd 
