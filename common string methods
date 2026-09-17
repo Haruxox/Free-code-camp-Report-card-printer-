@@ -1,0 +1,20 @@
+COMMON STRING METHODS
+Upper()
+This returns new string into all capital letters/ Uppercase 
+my_str = 'Hello Worls' 
+upper_case_my_str = my_str. upper()
+print(upper_case_my_str) # HELLO WORLD 
+
+lower() : works similar to upper(), but it converts all letters to lowercase 
+
+STRIP() 
+returns a new string with front and back characters removed 
+my_str = ' Hello World '  
+my_str_stripped = my_str.strip()
+print(my_str_striped) # Hello World - spaces infront and back were removed 
+
+REPLACE
+replace(old, new) 
+my_str = 'Hello World'
+my_str_replace = my_str.replace("Hello", "Hi")
+print(my_str_replace)  # Hi world 
